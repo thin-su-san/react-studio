@@ -2,7 +2,6 @@ import "./App.css";
 import { useState } from "react";
 import bakeryData from "./assets/bakery-data.json";
 import BakeryItem from "./components/BakeryItem";
-import Cart from "./components/Cart";
 
 /* ####### DO NOT TOUCH -- this makes the image URLs work ####### */
 bakeryData.forEach((item) => {
